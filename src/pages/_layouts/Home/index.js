@@ -7,7 +7,7 @@ import ReactGA from "react-ga";
 import { withRouter } from "react-router-dom";
 import AppConfig from "App.config";
 
-ReactGA.initialize(UA-226672095-1);
+ReactGA.initialize(AppConfig.GOOGLE.GA_TRACKING_CODE);
 
 const Home = ({ children }) => {
     const isNavbarVisible = useSelector((state) => state.layout.navbar);
