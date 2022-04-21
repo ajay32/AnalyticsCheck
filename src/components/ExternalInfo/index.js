@@ -17,7 +17,7 @@ const ExternalInfo = ({ code = "", tutorial = "" }) => {
                     rel="noopener noreferrer"
                 >
                     <span className="badge badge-danger mr-2 p-3">
-                        Youtube Tuorial of this demo{" "}
+                        Youtube Song{" "}
                         <i className="fas fa-external-link-alt"></i>
                     </span>
                 </a>
@@ -32,7 +32,7 @@ const ExternalInfo = ({ code = "", tutorial = "" }) => {
                     rel="noopener noreferrer"
                 >
                     <span className="badge badge-secondary mr-2 p-3">
-                        Github Source Code{" "}
+                        Github Ajay{" "}
                         <i className="fas fa-external-link-alt"></i>
                     </span>
                 </a>

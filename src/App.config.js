@@ -23,8 +23,8 @@ export default {
       code: `${GIT_REPO}pages/ButtonLoadingSpinner/index.js`,
     },
     otpBox: {
-      tutorial: `${YOUTUBE_BASE}qf56frPk5lA`,
-      code: `${GIT_REPO}pages/OTPBox/index.js`,
+      tutorial: `${YOUTUBE_BASE}YLkdm2pe8hA`,
+      code: `https://github.com/ajay32`,
     },
     contactListCRUD: {
       tutorial: "",
