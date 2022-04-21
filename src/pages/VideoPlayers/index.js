@@ -36,14 +36,10 @@ const VideoPlayer = () => {
                                             dispatch(startVideoPlayer(video.id))
                                         }
                                     >
-                                        <img
-                                            className="card-img-top"
-                                            src={`https://img.youtube.com/vi/${video.id}/sddefault.jpg`}
-                                            alt="Card cap"
-                                        />
+                                  =
                                         <div className="card-body">
                                             <h5 className="card-title">
-                                                {video.title}
+                                               
                                             </h5>
                                         </div>
                                     </div>

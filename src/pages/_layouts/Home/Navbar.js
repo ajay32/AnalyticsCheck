@@ -26,38 +26,13 @@ export const Navbar = () => {
                     </h3>
                     <p className="mb-0 text-white">{ThemeSwitcher}</p>
                     <p className="mb-0 mt-2">
-                        <div>
-                            <a
-                                class="github-button mr-3"
-                                target="_blank"
-                                href="https://github.com/codegeous/react-component-depot"
-                                data-size="large"
-                                data-show-count="true"
-                                aria-label="Star codegeous/react-component-depot on GitHub"
-                            >
-                                Star
-                            </a>
-                        </div>
-
-                        <div
-                            class="g-ytsubscribe ml-3"
-                            data-channelid="UCdItDI6oTgPW7l9WOJI7ItA"
-                            data-layout="default"
-                            data-count="default"
-                            style={{ height: "35px" }}
-                        ></div>
+                       
                     </p>
                 </div>
 
                 <ul className="list-unstyled components">
                     <p>
-                        <a
-                            href="https://www.youtube.com/channel/UCdItDI6oTgPW7l9WOJI7ItA/videos"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            D'Coders Youtube Page
-                        </a>
+                     
                     </p>
 
                     {routes

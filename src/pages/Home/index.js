@@ -17,18 +17,7 @@ const Home = () => {
                         react and some components
                     </p>
                     <p className="d-inline">
-                        <a
-                            href="https://www.youtube.com/channel/UCdItDI6oTgPW7l9WOJI7ItA/videos"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <img
-                                src={YoutubeLogo}
-                                style={{ width: "180px" }}
-                                className="img-fluid"
-                                alt="Youtube Logo"
-                            />
-                        </a>
+                  
                     </p>
                 </div>
             </div>
@@ -37,22 +26,7 @@ const Home = () => {
                     return (
                         <div className="col-md-4 p-3 card-hover" key={video.id}>
                             <div class="card">
-                                <a
-                                    href={`https://www.youtube.com/watch?v=${video.id}`}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    <img
-                                        class="card-img-top"
-                                        src={`https://img.youtube.com/vi/${video.id}/sddefault.jpg`}
-                                        alt="Card cap"
-                                    />
-                                    <div class="card-body">
-                                        <h5 class="card-title">
-                                            {video.title}
-                                        </h5>
-                                    </div>
-                                </a>
+                        
                             </div>
                         </div>
                     );
